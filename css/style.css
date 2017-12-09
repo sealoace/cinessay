@@ -1,0 +1,43 @@
+body {
+    font-family: Didot;
+}
+
+#header {
+  font-style: italic;
+  text-align: center;
+}
+
+#header h1 {
+  display: inline;
+  font-family: Didot;
+  font-size: 60px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px auto;
+  text-transform: uppercase;
+  z-index: 5;
+}
+
+#header p {
+  margin: 0px 0px 10px 0px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  z-index: 5;
+  padding: 1px;
+}
+
+.navbar a {
+  background: orangered;
+  color: white;
+  display: inline-block;
+  width: 15%;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background: white;
+  color: orangered;
+}
