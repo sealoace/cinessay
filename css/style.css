@@ -10,11 +10,10 @@ body {
 #header h1 {
   display: inline;
   font-family: Didot;
-  font-size: 60px;
+  font-size: 50px;
   padding: 0px 0px 0px 0px;
   margin: 0px auto;
   text-transform: uppercase;
-  z-index: 5;
 }
 
 #header p {
@@ -22,22 +21,31 @@ body {
 }
 
 .navbar {
-  width: 100%;
+  min-width: 800px;
   background-color: lightgray;
-  text-align: center;
   z-index: 5;
   padding: 1px;
+
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: stretch;
 }
 
-.navbar a {
+.navbox {
   background: orangered;
-  color: white;
-  display: inline-block;
-  width: 15%;
-  text-decoration: none;
+  min-width: 200px;
+  flex-grow: 2;
+  font-size: 20px;
+  border: 1px white;
 }
 
-.navbar a:hover {
+.navbox:hover {
   background: white;
   color: orangered;
+}
+
+a.navbox {
+  text-decoration: none;
+  color: white;
 }
