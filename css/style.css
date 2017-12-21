@@ -68,21 +68,24 @@ a.navbox {
   top: 104px;
 }
 
-/* Posts, Left Bar */
-
-.leftposts {
-  width: 100%;
-  overflow: auto;
-  flex: 1 1 auto;
-  margin: 1px;
-}
-
 .posthead {
   background: gold;
   min-width: 100px;
   flex: 1 1 auto;
   font-size: 20px;
   padding: 0px 5px;
+  display: flex;
+  flex: row nowrap;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+.postheadtitle {
+
+}
+
+.postheadtime {
+
 }
 
 .post {
@@ -92,6 +95,15 @@ a.navbox {
 
 .post p {
   margin: 5px;
+}
+
+/* Posts, Left Bar */
+
+.leftposts {
+  width: 100%;
+  overflow: auto;
+  flex: 1 1 auto;
+  margin: 1px;
 }
 
 /* Right Bar */
