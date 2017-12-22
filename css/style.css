@@ -1,6 +1,7 @@
 body {
     font-family: Didot;
     margin: 0px;
+    background-color: white;
 }
 
 .courier {
@@ -15,6 +16,7 @@ header {
   font-style: italic;
   text-align: center;
   z-index: 10;
+  background-color: white;
 }
 
 header h1 {
@@ -28,11 +30,7 @@ header p {
   background-color: white;
 }
 
-.headertext {
-  background-color: white;
-}
-
-.navbar {
+nav {
   width: 100%;
   background-color: lightgray;
   display: flex;
@@ -68,6 +66,12 @@ a.navbox {
   top: 104px;
 }
 
+.post {
+  background-color: #e8e8e8;
+  padding: 5px;
+  border-radius: 2px;
+}
+
 .posthead {
   background: gold;
   min-width: 100px;
@@ -78,19 +82,7 @@ a.navbox {
   flex: row nowrap;
   justify-content: space-between;
   font-style: italic;
-}
-
-.postheadtitle {
-
-}
-
-.postheadtime {
-
-}
-
-.post {
-  background-color: #e8e8e8;
-  padding: 5px;
+  border-radius: 2px;
 }
 
 .post p {
