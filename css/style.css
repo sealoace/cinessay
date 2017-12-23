@@ -39,6 +39,12 @@ nav {
   align-items: center;
 }
 
+.headerbox {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+
 .navbox {
   background: orangered;
   min-width: 100px;
@@ -105,4 +111,20 @@ a.navbox {
   overflow: auto;
   flex: 2 2 auto;
   margin: 1px;
+}
+
+/* Footer */
+
+footer {
+  min-width: 100px;
+  background-color: #e8e8e8;
+  margin: 1px;
+  border-radius: 2px;
+  display: flex;
+  flex: row;
+  align-items: center;
+}
+
+footer h6 {
+  margin-left: 20px;
 }
